@@ -154,3 +154,8 @@ ul {
     font-size: 30px;
     list-style: none;
 }
+
+.sources {
+    font-size: initial;
+    list-style: initial;
+}
