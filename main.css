@@ -51,12 +51,16 @@ body, html {
     background-image: url("background.jpg");
 }
 
-.content, .content-fourth, .content-half, .content-full, .content-75 {
+.content, .content-fourth, .content-half, .content-full, .content-75, .content-third {
     display: inline-block;
 }
 
 .content-fourth {
     width: 24%;
+}
+
+.content-third {
+    width: 33%;
 }
 
 .content-half {
@@ -71,7 +75,7 @@ body, html {
     width: 100%;
 }
 
-.image, .image-fourth, .image-half, .image-full {
+.image, .image-fourth, .image-half, .image-full, .image-third {
     width: 50%;
     box-shadow: 8px 8px 10px #000000;
     vertical-align: top;
@@ -81,6 +85,7 @@ body, html {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: 0.5s;
+    background-color: white;
 }
 
 img:hover {
@@ -93,6 +98,10 @@ img:hover {
 
 .image-half {
     width: 49%;
+}
+
+.image-third {
+    width: 33%;
 }
 
 .image-75 {
